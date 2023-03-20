@@ -49,7 +49,7 @@ class CartItem extends React.Component {
         return (
             <div className="cart-item">
                 <div className="left-block">
-                    <img style={styles.image} alt="item" />
+                    <img style={styles.image} />
                 </div>
                 <div className="right-block">
                     <div style={ {fontSize: 25} }> {title} </div>
