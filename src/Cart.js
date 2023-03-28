@@ -10,8 +10,8 @@ const Cart = (props) => {
                 products.map((prod) => {
                     return (
                         <CartItem
-                            product={prod}
                             key={prod.id}
+                            product={prod}
                             onIncreaseQuantity={props.onIncreaseQuantity}
                             onDecreaseQuantity={props.onDecreaseQuantity}
                             onDeleteProduct={props.onDeleteProduct}
